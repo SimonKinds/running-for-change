@@ -8,6 +8,7 @@
   background: #b70064;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin: 10px;
 }
 
 .btn:hover {
@@ -27,10 +28,6 @@ div.centre
 .center-button 
 {
 	display: block;
-}
-.button-padding
-{
-	padding: 20px 20px 20px 20px;
 }
 .featurette-h3
 {
