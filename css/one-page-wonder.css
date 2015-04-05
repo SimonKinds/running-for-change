@@ -25,15 +25,15 @@ body {
 }
 
 .headline h1 {
-	color: white;
     font-size: 130px;
     background: black;
     /*background: rgba(255,255,255,0.9);*/
 }
 
 .headline h2 {
-    font-size: 77px;
+    font-size: 40px;
 	background: black;
+	color: white;
     /*background: #fff;
     background: rgba(255,255,255,0.9);*/
 }
@@ -68,7 +68,7 @@ footer {
     }
 
     .headline h2 {
-        font-size: 63px;
+        font-size: 35px;
     }
 
     .featurette-divider {
@@ -94,7 +94,7 @@ footer {
     }
 
     .headline h2 {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .featurette-divider {
@@ -137,9 +137,9 @@ footer {
         font-size: 70px;
     }
 
-    .headline h2 {
+    /*.headline h2 {
         font-size: 32px;
-    }
+    }*/
 
     .featurette-divider {
         margin: 30px 0;

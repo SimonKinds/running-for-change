@@ -1,36 +1,36 @@
 .btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
+  background: #b70064;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: #d06f9a;
+  background-image: -webkit-linear-gradient(top, #d06f9a, #d06f9a);
+  background-image: -moz-linear-gradient(top, #d06f9a, #d06f9a);
+  background-image: -ms-linear-gradient(top, #d06f9a, #d06f9a);
+  background-image: -o-linear-gradient(top, #d06f9a, #d06f9a);
+  background-image: linear-gradient(to bottom, #d06f9a, #d06f9a);
   text-decoration: none;
 }
 div.centre
 {
-  width: 200px;
   padding-top: 60px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-align:center;
+}
+.center-button 
+{
+	display: block;
+}
+.button-padding
+{
+	padding: 20px 20px 20px 20px;
 }
 .featurette-h3
 {
@@ -40,7 +40,104 @@ div.centre
 {
 	font-weight: bold;
 }
+@media(max-width:1200px) {
+	.featurette-h3 
+	{
+		font-size: 25px;
+	}
+	.social-media 
+	{
+		width: 25px;
+	}
+}
+@media(max-width:991px) {
+	.featurette-h3 
+	{
+		font-size: 25px;
+	}
+	.social-media 
+	{
+		width: 20px;
+	}
+	.header-logo
+	{
+		max-width: 800px;
+	}
+}
+@media(max-width:768px) {
+	.featurette-h3 
+	{
+		font-size: 20px;
+	}
+	.header-logo
+	{
+		max-width: 650px;
+	}
+}
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+	.header-logo
+	{
+		max-width: 600px;
+	}
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+	.header-logo
+	{
+		max-width: 375px;
+	}
+}
+
 .about-rfc-image
 {
 	max-width: 500px;
+}
+.social-media 
+{
+	width: 30px;
+}
+.social-media-padding
+{
+	padding-right: 10px;
+}
+.social-media-div
+{
+	padding-bottom:10px;
+}
+/*To get rid of weird underline when hovering image */
+.social-media-hover:hover
+{
+	text-decoration: none;
+}
+.header-logo
+{
+	max-width: 1000px;
 }
