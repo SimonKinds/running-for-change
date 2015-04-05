@@ -40,82 +40,6 @@ div.centre
 {
 	font-weight: bold;
 }
-@media(max-width:1200px) {
-	.featurette-h3 
-	{
-		font-size: 25px;
-	}
-	.social-media 
-	{
-		width: 25px;
-	}
-}
-@media(max-width:991px) {
-	.featurette-h3 
-	{
-		font-size: 25px;
-	}
-	.social-media 
-	{
-		width: 20px;
-	}
-	.header-logo
-	{
-		max-width: 800px;
-	}
-}
-@media(max-width:768px) {
-	.featurette-h3 
-	{
-		font-size: 20px;
-	}
-	.header-logo
-	{
-		max-width: 650px;
-	}
-}
-@media(max-width:640px) {
-    .headline {
-        padding: 75px 0 25px 0;
-    }
-
-    .headline h1 {
-        font-size: 60px;
-    }
-
-    .headline h2 {
-        font-size: 30px;
-    }
-	.header-logo
-	{
-		max-width: 600px;
-	}
-}
-
-@media(max-width:375px) {
-    .featurette-divider {
-        margin: 10px 0;
-    }
-
-    .featurette-image {
-        max-width: 100%;
-    }
-
-    .featurette-image.pull-left {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .featurette-image.pull-right {
-        margin-bottom: 10px;
-        margin-left: 0;
-    }
-	.header-logo
-	{
-		max-width: 375px;
-	}
-}
-
 .about-rfc-image
 {
 	max-width: 500px;
@@ -139,5 +63,66 @@ div.centre
 }
 .header-logo
 {
-	max-width: 1000px;
+	max-width:100%;
+	height:auto;
+/*	max-width: 1000px;*/
+}
+@media(max-width:1200px) {
+	.featurette-h3 
+	{
+		font-size: 25px;
+	}
+	.social-media 
+	{
+		width: 25px;
+	}
+}
+@media(max-width:991px) {
+	.featurette-h3 
+	{
+		font-size: 25px;
+	}
+	.social-media 
+	{
+		width: 20px;
+	}
+}
+@media(max-width:768px) {
+	.featurette-h3 
+	{
+		font-size: 20px;
+	}
+}
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
 }
