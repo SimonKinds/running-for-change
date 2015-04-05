@@ -165,10 +165,6 @@ footer {
         margin: 10px 0;
     }
 
-    .featurette-image {
-        max-width: 100%;
-    }
-
     .featurette-image.pull-left {
         margin-right: 0;
         margin-bottom: 10px;
